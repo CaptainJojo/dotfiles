@@ -17,8 +17,6 @@ export HISTCONTROL='ignoreboth'
 export HISTIGNORE='ls:cd:cd -:pwd:exit:date:* --help'
 unsetopt SHARE_HISTORY
 
-# kubectl
-hash kubectl &>/dev/null &&  source <(kubectl completion zsh)
 
 # travis
 [[ -f "/usr/local/share/zsh/site-functions/_travis" ]] \
@@ -83,7 +81,7 @@ export FZF_DEFAULT_OPTS='--history=.fzf_history --history-size=10000
 --color info:7,prompt:3,spinner:4,pointer:4,marker:1'
 
 # Switch pure prompt theme to vi mode
-export PATATETOY_VIM_MODE=1
+export PATATETOY_VIM_MODEi=0
 
 # chruby
 if [[ -f '/usr/local/share/chruby/chruby.sh' ]]; then

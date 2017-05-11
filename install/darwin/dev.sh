@@ -5,10 +5,8 @@
 brew tap jeffreywildman/homebrew-virt-manager
 
 echo '--> Install dev cask apps'
-brew cask install charles
 brew cask install google-cloud-sdk
 brew cask install docker
-brew cask install vagrant
 brew cask install virtualbox
 
 echo '--> Install dev apps'
@@ -40,13 +38,8 @@ brew install ruby-install
 brew install s3cmd
 brew install shellcheck
 brew install spark
-brew install svn
 brew install tag
 brew install tig
-brew install tcpdump
-brew install tcptraceroute
-brew install terraform
-brew install terraform-inventory
 
 # Python
 
